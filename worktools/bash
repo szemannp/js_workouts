@@ -1,0 +1,20 @@
+for f in *; do mv -v "$f" "`echo $f | tr '[A-Z]' '[a-z]' | tr ', ' '_' | tr '; ' '_'| tr '  ' '_'| tr ' ' '_'`" ; done
+
+
+
+
+for f in *; do mv -v "$f" "`echo $f | tr '[A-Z]' '[a-z]' | tr ', ' '_' | tr '; ' '_'| tr '  ' '_'| tr ' ' '_' | tr ‘ÀÁÂÃÄÅàáâãäåÒÓÔÕÕÖØòóôõöøÈÉÊËèéêëðÇçÐÌÍÎÏìíîïÙÚÛÜùúûüÑñŠšŸÿýŽž’ ‘AAAAAAaaaaaaOOOOOOOooooooEEEEeeeeeCcDIIIIiiiiUUUUuuuuNnSsYyyZz’`" ; done
+
+<<<<< THISSSSSS
+
+for file in *; do mv "$file" "`echo $file | tr ' ' '_' | tr '[A-Z]' '[a-z]'`"; done
+
+
+
+
+
+for file in *; do mv -v "$file" "`echo $file | tr '[A-Z]' '[a-z]' | tr ' ' '_'`"; done
+
+
+
+for f in *; do mv -v "$f" "`echo $f | tr '[A-Z]' '[a-z]' | tr ' ' '_' | tr ',' '' | tr ';' ''`" ; done
