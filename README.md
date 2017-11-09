@@ -19,3 +19,6 @@ css_tweaker: js driven css setting
 canvas_fun: basic canvas
 
 type ahead: simple type ahead with cities
+
+
+worktools: scripts used during work to skip hours of manual editing
