@@ -1,0 +1,46 @@
+:root {
+	--baseColor: #E65953;
+	--basePadding: 10px;
+	--baseBlur: 10px;
+};
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 100;
+	font-size: 48px;
+}
+
+body {
+	background-color: #1A252C;
+	text-align: center;
+}
+
+h2, label {
+	color: #F5F6F4;
+	margin-top: 50px;
+}
+
+.input-wrapper {
+	margin: 5px;
+}
+
+img {
+	content: url("./assets/tweaker-sm.png");
+	padding: var(--basePadding);
+	background: var(--baseColor);
+	filter: blur(var(--baseBlur));
+}
+
+.settings {
+	margin-bottom: 50px;
+}
+
+.highlight {
+	color: var(--baseColor);
+	text-transform: uppercase;
+}
+
+

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>vanilla js drumkit</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script type="text/javascript" src="app.js"></script>
+		<link rel="stylesheet" type="text/css" href="style-sheet.css">
+		<link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+	</head>
+	<body>
+		<div class="dk-drumkit-wrapper">
+			<div class="dk-keyboard-wrapper">
+				<div data-key="65" class="dk-key">
+					<kbd>a</kbd>
+					<span class="dk-sound">boom</span>
+				</div>
+				<div data-key="83" class="dk-key">
+					<kbd>s</kbd>
+					<span class="dk-sound">clap</span>
+				</div>
+				<div data-key="68" class="dk-key">
+					<kbd>d</kbd>
+					<span class="dk-sound">hihat</span>
+				</div>
+				<div data-key="70" class="dk-key">
+					<kbd>f</kbd>
+					<span class="dk-sound">kick</span>
+				</div>
+				<div data-key="71" class="dk-key">
+					<kbd>g</kbd>
+					<span class="dk-sound">openhat</span>
+				</div>
+				<div data-key="72" class="dk-key">
+					<kbd>h</kbd>
+					<span class="dk-sound">ride</span>
+				</div>
+				<div data-key="74" class="dk-key">
+					<kbd>j</kbd>
+					<span class="dk-sound">snare</span>
+				</div>
+				<div data-key="75" class="dk-key">
+					<kbd>k</kbd>
+					<span class="dk-sound">tink</span>
+				</div>
+				<div data-key="76" class="dk-key">
+					<kbd>l</kbd>
+					<span class="dk-sound">tom</span>
+				</div>
+			</div>
+
+			<audio data-key="65" src="assets/boom.wav"></audio>
+			<audio data-key="83" src="assets/clap.wav"></audio>
+			<audio data-key="68" src="assets/hihat.wav"></audio>
+			<audio data-key="70" src="assets/kick.wav"></audio>
+			<audio data-key="71" src="assets/openhat.wav"></audio>
+			<audio data-key="72" src="assets/ride.wav"></audio>
+			<audio data-key="74" src="assets/snare.wav"></audio>
+			<audio data-key="75" src="assets/tink.wav"></audio>
+			<audio data-key="76" src="assets/tom.wav"></audio>
+		</div>
+	</body>
+</html>

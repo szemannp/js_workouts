@@ -1,0 +1,47 @@
+* {
+	box-sizing: border-box;
+	font-family: 'Josefin Sans', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-size: 20px;
+	font-weight: 200;
+}
+
+.highlight {
+	background: pink;
+}
+
+.ta-search-bar {
+	font-size: 20px;
+	height: 5vh;
+	width: 15vw;
+	margin: 30px auto;
+}
+
+.ta-search-form {
+	width: 100%;
+	height: 100%;
+}
+
+.ta-wrapper {
+	width: 30vw;
+	height: 10vh;
+	margin: 10% auto;
+}
+
+.ta-suggestions {
+	list-style: none;
+}
+
+.ta-result {
+	margin: 5px 0;
+}
+
+.ta-city-name {
+	display: block;
+	font-size: 28px;
+	margin: 10px 0;
+}

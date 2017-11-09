@@ -1,0 +1,59 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 24px;
+}
+
+html {
+	background: url("./assets/drumkit-bg.png");
+}
+
+kbd {
+	align-self: center;
+	font-size: 48px;
+	text-transform: uppercase;
+}
+
+.dk-drumkit-wrapper * {
+	display: flex;
+}
+
+.dk-drumkit-wrapper {
+	align-items: center;
+	display: flex;
+	height: 100vh;
+	width: 100vw;
+}
+
+.dk-keyboard-wrapper {
+	align-items: center;
+	display: flex;
+	height: 20%;
+	justify-content: space-around;
+	margin: auto;
+	width: 80%;
+}
+
+.dk-key {
+	background: linear-gradient(135deg, #673AB7, #D1C4E9);
+	box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.75);
+	flex-basis: 0;
+	flex-direction: column;
+	flex-grow: 1;
+	justify-content: center;
+	margin: .3rem;
+	padding: .7rem;
+	transition: all .07s;
+	width: 5rem;
+}
+
+.dk-sound {
+	justify-content: center;
+}
+
+.active {
+	box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.75);
+	transform: scale(.95);
+}
